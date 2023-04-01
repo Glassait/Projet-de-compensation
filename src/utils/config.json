@@ -1,0 +1,32 @@
+{
+  "serverPort": 8000,
+  "serverAddress": "localhost",
+  "stations": [
+    {
+      "name": "Gare A",
+      "address": "127.0.0.1"
+    },
+    {
+      "name": "Gare B",
+      "address": "127.0.0.2"
+    },
+    {
+      "name": "Gare C",
+      "address": "127.0.0.3"
+    }
+  ],
+  "trains": [
+    {
+      "id": "8952",
+      "initialStation": "Gare A"
+    },
+    {
+      "id": "4472",
+      "initialStation": "Gare B"
+    },
+    {
+      "id": "2169",
+      "initialStation": "Gare A"
+    }
+  ]
+}
